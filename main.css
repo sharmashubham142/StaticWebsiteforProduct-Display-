@@ -1,0 +1,256 @@
+body {
+    background: url(wallpaper.jpeg);
+}
+
+.navbar {
+    height: 200px;
+    width: 99%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+
+}
+
+h2 {
+    color: dimgray;
+
+    transition: all 0.5s ease;
+}
+
+h2:hover {
+    color: black;
+    
+
+}
+
+.logo {
+    height: 70%;
+    width: 50%;
+    margin-right: 20px;
+
+}
+
+.pic {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.sitebody {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 75px;
+    opacity: 1;
+    box-shadow: 10px 10px 10px;
+    padding-top: 1px;
+
+
+}
+
+.hi-slide {
+    position: relative;
+    width: 754px;
+    height: 292px;
+    border-radius: 50px;
+    margin: 10px auto 0;
+
+}
+
+.hi-slide .hi-next,
+.hi-slide .hi-prev {
+    position: absolute;
+    top 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 120px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: all 0.7s;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover {
+    opacity: 1;
+    background-color: white;
+
+}
+
+.hi-slide .hi-prev {
+    left: -60px;
+}
+
+.hi-slide .hi-prev::before {
+    content: '<';
+}
+
+.hi-slide .hi-next {
+    right: -60px;
+}
+
+.hi-slide .hi-next::before {
+    content: '>';
+}
+
+.hi-slide > ul {
+    list-style: none;
+    position: relative;
+    width: 754px;
+    height: 292px;
+    margin: 0;
+    padding: 0;
+}
+
+.hi-slide > ul > li {
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    left: 377px;
+    top: 147px;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 3px solid white;
+    cursor: pointer;
+    background-color: #333;
+
+}
+
+.hi-slide > ul > li > img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 300px;
+    width: 100%;
+
+
+}
+
+.card1 {
+    border-radius: 25px;
+    position: relative;
+    margin-left: 10px;
+    height: 275px;
+    width: 20%;
+    
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.card2 {
+    border-radius: 25px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -275px;
+    height: 275px;
+    width: 20%;
+    
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.card3 {
+    border-radius: 25px;
+    position: relative;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-top: -275px;
+    height: 275px;
+    width: 20%;
+    
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.end {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background: gray;
+    border-radius: 25px;
+}
+
+.rotate:hover {
+    transform: rotateY(180deg);
+}
+.seemore{
+    
+    border-style: solid;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: wheat;
+    transition: all 0.5s ease;
+    width: 150px;
+    height: 45px;
+    
+}
+.seemore:hover{
+    background: dimgray;
+    color: white;
+}
+.footer{
+    margin-bottom: 0px;
+    padding-top: 25px;
+    height: 200px;
+    width: 100%;
+    background: wheat;
+    opacity: .6;
+    padding-left: 17.5%;
+}
+.about {
+    position: relative;
+    margin-left: 10px;
+    height: 150px;
+    width: 30%;
+}
+
+.help {
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -150px;
+    height: 150px;
+    width: 30%;
+}
+
+.policy {
+
+    position: relative;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-top: -150px;
+    height: 150px;
+    width: 30%;
+}
